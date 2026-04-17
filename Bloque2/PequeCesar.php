@@ -10,29 +10,33 @@
     <header>
         <h1>Little Caesars</h1>
     </header>
-</body>
+
 <p></p>
 
 <div>
     <!-- Formulario -->
-     <form action="welcome.php" method="post">
+     <form  id = "formulario" action="welcome.php" method="post">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" ><br><br>
         
         <label for="apellido">Apellido:</label>
-        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required><br><br>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" ><br><br>
 
         <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Ingrese su email" required><br><br>
+        <input type="email" id="email" name="email" placeholder="Ingrese su email"><br><br>
 
         <label for="Contraseña">Contraseña</label>
-        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required><br><br>
+        <input type="password" id="password" name="password" placeholder="Ingrese su contraseña"><br><br>
 
         <input type ="Submit">
 
 </form>
 
 </div>
+
+    <script src = "../Bloque2/pequecesar.js"></script>
+
+</body>
 </html>
 
 <!-- para que funcione el formulario -->
