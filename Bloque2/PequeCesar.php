@@ -28,6 +28,9 @@
         <label for="Contraseña">Contraseña</label>
         <input type="password" id="password" name="password" placeholder="Ingrese su contraseña"><br><br>
 
+        <label for="monto">Monto a cobrar:</label>
+        <input type="number" id="monto" name="monto" step="0.01" placeholder="0.00" required><br><br>
+
         <input type ="Submit">
 
 </form>
@@ -39,31 +42,31 @@
 </body>
 </html>
 
-<!-- para que funcione el formulario -->
+<!--Para que funcione el formulario -->
 <?php
- if (isset ($_Post ["nombre"])){
-    echo "Hola" . $_Post ["nombre"];
+ if (isset ($_POST ["nombre"])){
+    echo "Hola" . $_POST ["nombre"];
  }
 ?>
 
 
 <?php
- if (isset ($_Post ["apellido"])){
-    echo "" . $_Post ["apellido"];
+ if (isset ($_POST ["apellido"])){
+    echo "" . $_POST ["apellido"];
  }
 ?>
 
 
 <?php
- if (isset ($_Post ["email"])){
-    echo "Su imail fue aceptada" . $_Post ["email"];
+ if (isset ($_POST ["email"])){
+    echo "Su imail fue aceptada" . $_POST ["email"];
  }
 ?>
 
 
 <?php
- if (isset ($_Post ["password"])){
-    echo "Su contraseña fue aceptada" . $_Post ["password"];
+ if (isset ($_POST ["password"])){
+    echo "Su contraseña fue aceptada" . $_POST ["password"];
  }
 ?>
 
